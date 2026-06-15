@@ -215,7 +215,7 @@ const ProductCard = ({ product }) => {
           {image_url && image_url !== '/placeholder.jpg' ? (
             <img
               className="product-image"
-              src={image_url.startsWith('http') ? image_url : `http://localhost:5000${image_url}`}
+              src={image_url.startsWith('http') ? image_url : `https://khalsa-multistore-backend.onrender.com${image_url}`}
               alt={name}
               style={styles.image}
               loading="lazy"

@@ -326,7 +326,7 @@ const AdminDashboard = () => {
                           <div style={styles.thumbnailWrapper}>
                             {product.image_url && product.image_url !== '/placeholder.jpg' ? (
                               <img
-                                src={product.image_url.startsWith('http') ? product.image_url : `http://localhost:5000${product.image_url}`}
+                                src={product.image_url.startsWith('http') ? product.image_url : `https://khalsa-multistore-backend.onrender.com${product.image_url}`}
                                 alt={product.name}
                                 style={styles.thumbnail}
                               />
@@ -584,7 +584,7 @@ const AdminDashboard = () => {
                 <div style={styles.previewContainer}>
                   <p style={styles.previewLabel}>Image Preview:</p>
                   <img
-                    src={imagePreview.startsWith('blob:') || imagePreview.startsWith('data:') ? imagePreview : (imagePreview.startsWith('http') ? imagePreview : `http://localhost:5000${imagePreview}`)}
+                    src={imagePreview.startsWith('blob:') || imagePreview.startsWith('data:') ? imagePreview : (imagePreview.startsWith('http') ? imagePreview : `https://khalsa-multistore-backend.onrender.com${imagePreview}`)}
                     alt="Preview"
                     style={styles.previewImage}
                   />
