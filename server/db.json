@@ -1,0 +1,174 @@
+{
+  "admins": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password_hash": "$2a$10$q1STWO.DEuOcRcXnrlw6B.NQyD9sloEza/IjbzdrTQG2oZjCZbMse",
+      "created_at": "2026-06-15T06:28:58.903Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Basmati Rice 5kg",
+      "description": "Premium long-grain basmati rice, perfect for biryani and pulao",
+      "price": 450,
+      "category": "Groceries",
+      "image_url": "/placeholder.jpg",
+      "stock": 50,
+      "created_at": "2026-06-15T06:28:58.905Z"
+    },
+    {
+      "id": 2,
+      "name": "Toor Dal 1kg",
+      "description": "High-quality toor dal for everyday cooking",
+      "price": 180,
+      "category": "Groceries",
+      "image_url": "/placeholder.jpg",
+      "stock": 80,
+      "created_at": "2026-06-15T06:28:58.905Z"
+    },
+    {
+      "id": 3,
+      "name": "Amul Butter 500g",
+      "description": "Creamy and delicious Amul butter",
+      "price": 280,
+      "category": "Dairy & Beverages",
+      "image_url": "/placeholder.jpg",
+      "stock": 30,
+      "created_at": "2026-06-15T06:28:58.905Z"
+    },
+    {
+      "id": 4,
+      "name": "Amul Milk 1L",
+      "description": "Fresh toned milk, pasteurized and homogenized",
+      "price": 65,
+      "category": "Dairy & Beverages",
+      "image_url": "/placeholder.jpg",
+      "stock": 100,
+      "created_at": "2026-06-15T06:28:58.905Z"
+    },
+    {
+      "id": 5,
+      "name": "Lay's Classic Chips",
+      "description": "Crispy salted potato chips, party pack",
+      "price": 30,
+      "category": "Snacks & Sweets",
+      "image_url": "/placeholder.jpg",
+      "stock": 120,
+      "created_at": "2026-06-15T06:28:58.905Z"
+    },
+    {
+      "id": 6,
+      "name": "Haldiram's Namkeen 400g",
+      "description": "Traditional Indian namkeen mix",
+      "price": 150,
+      "category": "Snacks & Sweets",
+      "image_url": "/placeholder.jpg",
+      "stock": 60,
+      "created_at": "2026-06-15T06:28:58.905Z"
+    },
+    {
+      "id": 7,
+      "name": "Dove Soap 100g",
+      "description": "Moisturizing beauty bar for soft skin",
+      "price": 55,
+      "category": "Personal Care",
+      "image_url": "/placeholder.jpg",
+      "stock": 90,
+      "created_at": "2026-06-15T06:28:58.905Z"
+    },
+    {
+      "id": 8,
+      "name": "Colgate Toothpaste 200g",
+      "description": "Strong teeth toothpaste with calcium boost",
+      "price": 120,
+      "category": "Personal Care",
+      "image_url": "/placeholder.jpg",
+      "stock": 70,
+      "created_at": "2026-06-15T06:28:58.905Z"
+    },
+    {
+      "id": 9,
+      "name": "Surf Excel 1kg",
+      "description": "Easy wash detergent powder for tough stains",
+      "price": 230,
+      "category": "Household",
+      "image_url": "/placeholder.jpg",
+      "stock": 45,
+      "created_at": "2026-06-15T06:28:58.905Z"
+    },
+    {
+      "id": 10,
+      "name": "Vim Dishwash Bar",
+      "description": "Powerful grease-cutting dishwash bar",
+      "price": 35,
+      "category": "Household",
+      "image_url": "/placeholder.jpg",
+      "stock": 110,
+      "created_at": "2026-06-15T06:28:58.905Z"
+    },
+    {
+      "id": 11,
+      "name": "Classmate Notebook",
+      "description": "Single-line ruled notebook, 200 pages",
+      "price": 45,
+      "category": "Stationery",
+      "image_url": "/placeholder.jpg",
+      "stock": 150,
+      "created_at": "2026-06-15T06:28:58.905Z"
+    },
+    {
+      "id": 12,
+      "name": "Cello Pen Pack of 5",
+      "description": "Smooth-writing blue ballpoint pens",
+      "price": 50,
+      "category": "Stationery",
+      "image_url": "/placeholder.jpg",
+      "stock": 200,
+      "created_at": "2026-06-15T06:28:58.905Z"
+    },
+    {
+      "id": 13,
+      "name": "Test Product",
+      "description": "Test Description",
+      "price": 99.99,
+      "category": "Groceries",
+      "image_url": "/placeholder.jpg",
+      "stock": 10,
+      "created_at": "2026-06-15T06:47:13.125Z"
+    },
+    {
+      "id": 14,
+      "name": "jhds",
+      "description": "aodg",
+      "price": 900,
+      "category": "Groceries",
+      "image_url": "/placeholder.jpg",
+      "stock": 10,
+      "created_at": "2026-06-15T06:49:27.535Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customer_name": "Test Customer",
+      "customer_phone": "1234567890",
+      "customer_address": "123 Test Street",
+      "items_json": "[{\"id\":13,\"name\":\"Test Product\",\"price\":99.99,\"quantity\":2}]",
+      "total": 199.98,
+      "status": "delivered",
+      "created_at": "2026-06-15T06:47:13.131Z"
+    },
+    {
+      "id": 2,
+      "customer_name": "Prabhnishan singh",
+      "customer_phone": "09040934485",
+      "customer_address": "gf",
+      "items_json": "[{\"product\":1,\"name\":\"Basmati Rice 5kg\",\"quantity\":1,\"price\":450},{\"product\":2,\"name\":\"Toor Dal 1kg\",\"quantity\":1,\"price\":180},{\"product\":6,\"name\":\"Haldiram's Namkeen 400g\",\"quantity\":1,\"price\":150},{\"product\":11,\"name\":\"Classmate Notebook\",\"quantity\":1,\"price\":45}]",
+      "total": 825,
+      "status": "delivered",
+      "created_at": "2026-06-15T06:48:50.467Z"
+    }
+  ]
+}
