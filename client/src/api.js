@@ -1,4 +1,4 @@
-const API_BASE = '/api';
+const API_BASE = 'https://khalsa-multistore-backend.onrender.com/api';
 
 async function apiFetch(endpoint, options = {}) {
   const token = localStorage.getItem('token');
