@@ -202,7 +202,7 @@ const Footer = () => {
                       <circle cx="12" cy="10" r="3" />
                     </svg>
                   </span>
-                  <span>Your Local Area, City</span>
+                  <span>Your city Brajrajnagar</span>
                 </li>
               </ul>
             </div>
@@ -210,7 +210,7 @@ const Footer = () => {
 
           {/* Bottom Bar */}
           <div style={styles.bottomBar}>
-            © 2026 K minutes. All rights reserved. Made with ❤️
+            © 2026 K minutes. All rights reserved. Developed by prabxy
           </div>
         </div>
       </footer>
